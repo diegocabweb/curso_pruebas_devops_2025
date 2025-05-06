@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker con Nginx</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
+            max-width: 600px;
+        }
+        h1 {
+            color: #0073b1;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #333;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .nginx-logo {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <svg class="nginx-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="#009639" d="M256 0l-256 256 256 256 256-256-256-256zm0 464l-208-208 208-208 208 208-208 208z"/>
+            <path fill="#009639" d="M256 64l-192 192 192 192 192-192-192-192zm0 336l-144-144 144-144 144 144-144 144z"/>
+        </svg>
+        <h1>¡Hola Mundo desde Docker con Nginx!</h1>
+        <p>Esta página está siendo servida desde un contenedor Docker ejecutando Nginx.</p>
+        <div class="footer">
+            Creado con Docker y Nginx - Ejemplo de contenedor
+        </div>
+    </div>
+</body>
+</html>
