@@ -1,7 +1,9 @@
+# Proyectos Pruebas DevOps 2025
 
-Proyectos de pruebas Devops 2025
+Aquí se van a almacenar los proyectos para aprender las herramientas DevOps
 
-01 Docker Hola Mundo Python
-Un simple contenedor Docker que ejecuta un script de Python que muestra "¡Hola Mundo desde un contenedor Docker!".
-Estructura del proyecto
-
+## Tecnologías 
+- Linux - Bash
+- Docker
+- Ansible
+- Kubernetes
