@@ -1,0 +1,18 @@
+# Archivos de registro generados por el script
+*.log
+
+# Archivos temporales del sistema
+*~
+*.swp
+*.tmp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
